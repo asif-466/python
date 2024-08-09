@@ -1,0 +1,19 @@
+--------check status of git repo----------
+
+git status
+
+-------add untracked file-----------------
+
+git add .
+
+-------git commit for save file in github repo----------
+
+git commit -m "any massage hera"
+
+-------push your new file in githu repo---------
+
+git push origin main
+
+-------pull your github repo-------------
+
+git pull origin main
