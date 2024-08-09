@@ -1,0 +1,6 @@
+user=input("enter any strings:")
+search=input("search key:")
+count=user.count(search)
+index=user.find(search)
+print(f"count of {search}:",count)
+print(f"index of {search}:",index)
