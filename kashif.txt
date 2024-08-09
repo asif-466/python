@@ -8,7 +8,7 @@ git add .
 
 -------git commit for save file in github repo----------
 
-git commit -m "any massage hera"
+git commit -m "any massage hear"
 
 -------push your new file in githu repo---------
 
