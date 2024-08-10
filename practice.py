@@ -22,3 +22,11 @@ for word in covert_list:
 
          print("unique_word: ",unique_words)  
 
+
+
+
+
+
+Mutability: Lists, sets, और dictionaries mutable हैं, जबकि strings और tuples immutable हैं।
+Order: Lists, strings, और tuples ordered होते हैं, जबकि sets और dictionaries unordered होते हैं।
+Duplicates: Sets और dictionaries में duplicates नहीं होते, लेकिन lists, strings, और tuples में होते हैं।
