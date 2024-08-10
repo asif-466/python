@@ -8,7 +8,5 @@ for char in s:
     if char not in set_var:
         set_var.add(char)  
         unique_chars =  unique_chars + char
-     
 
-print(f"String with unique characters: '{unique_chars}'")
-
+print(f"String with unique character: '{unique_chars}'")
