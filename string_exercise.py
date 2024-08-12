@@ -5,3 +5,4 @@ for i in str:
      if i.lower() in vovels:count=count + 1
 print("number of vovels:",count)
 
+

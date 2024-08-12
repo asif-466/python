@@ -1,0 +1,5 @@
+str="this is first line\n hello bro"
+print(str)
+print(len(str))
+ch=str[0:4]
+print(ch)

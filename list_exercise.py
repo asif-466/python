@@ -1,5 +1,1 @@
-list=[1,2,1]
-# list.sort()
-b=sorted(list, reverse=True)
-print(list)
-print(b)
+list=[1,2,3,4,5]
