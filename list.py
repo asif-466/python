@@ -1,35 +1,47 @@
-list=["hello","my","lovely","baby"]#this is a list 
-index=list[0]# indexing of list
-list2=["no","bro"]#second list
-list[1:3]=list2# sliceing of list
-list.insert(1,"world")#inserting of list
-list.append("e")#appending of last value
-list.remove("e")#removing from elements name
-list.pop(1)#removing from index no
-del list[0:3]#deleting from slicing
+#this is a list var
+list=["hello","my","lovely","baby"]
+#indexing of list
+index=list[0]
+#second list var
+list2=["no","bro"]
+#sliceing of list var
+list[1:3]=list2
+#inserting of list
+list.insert(1,"world")
+#apending of list
+list.append("e")
+#removeing of list from element name
+list.remove("e")
+#removing from index no
+list.pop(1)
+#deleting from slice
+del list[0:3]
 
 
-print("print index",index)#print index
-print("print after insert",list)#print after inserting list
+print("print index",index)
+print("print after insert",list)
 
-
-l=[88,33,44,55,66]#list for loop
-l.sort()#sort of list
+#list for loop
+l=[88,33,44,55,66]
+#sorting of list
+l.sort()
+#sorting from reverse
 s=sorted(l, reverse=True)
 print("print after reverce sort",s)
 print("print after sort",l)
-for i in l:#for condition in list
-    print("print same line with end",i,end=" ")#print in same line with end 
-
-w=[1,2,3,4,5]#list for while loop
-ind=0#index=0
-while ind <len(w):#wile loop condition
-    print(w[ind])#print while loop result
-    ind=ind +1#append in index of while loop
+#for loop for list
+for i in l:
+    print("print same line with end",i,end=" ")
+#while loop for list
+w=[1,2,3,4,5]
+ind=0
+while ind <len(w):
+    print(w[ind])
+    ind=ind +1
 
 a=[1,2,3,4,5]#list for square loop
 suare=[num**2 for num in a]#condition of square loop
-print("print after suare",suare)#print of square loop
+print("print after suare",suare)
 
 fruite=["apple","banana","mango"]#list for loop with index no
 for index, i in enumerate(fruite):#condition

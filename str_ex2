@@ -1,5 +1,15 @@
-str="this is first line\n hello bro"
-print(str)
+str=input("enter any str:")
+length=len(str)
+print(length)
+co=str.count("hello")
+print(co)
+# print(str)
 print(len(str))
 ch=str[0:4]
 print(ch)
+print(str.endswith("bro"))
+print(str.capitalize())
+print(str.replace("hello","second"))
+print(str.find("hello"))
+print(str.count("hello"))
+# print(str)
