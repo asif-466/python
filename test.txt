@@ -1,2 +1,0 @@
-hello this is my file
-/home/asif/python/test.txt
