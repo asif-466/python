@@ -1,48 +1,55 @@
-#this is a list var
-list=["hello","my","lovely","baby"]
-#indexing of list
-index=list[0]
-#second list var
-list2=["no","bro"]
-#sliceing of list var
-list[1:3]=list2
+# #indexing and slicing of list
+# list1=["hello","my","lovely","baby"]
+# index=list[0]
+# list2=["no","bro"]
+# list1[0:2]=list2
+# print(list2)
+# print(list1)
+# l1=["monu","a","a","m","jonu"]
+# a=list1[0] +" "+ list1[4]
+# b=list1[0] [2]
+# print(a)
+# print(b)
 #inserting of list
-list.insert(1,"world")
+# insertlist=["hello","baby","what","are","you","doing"]
+# insertlist.insert(1,"world")
+# print(insertlist)
 #apending of list
-list.append("e")
+# appendlist=["hello","baby","what","are","you","doing"]
+# appendlist.append("e")
+# print(appendlist)
 #removeing of list from element name
-list.remove("e")
+# removelist=["hello","baby","what","are","you","doing"]
+# removelist.remove("baby")
+# print(removelist)
 #removing from index no
-list.pop(1)
-#deleting from slice
-del list[0:3]
-
-
-print("print index",index)
-print("print after insert",list)
-
-#list for loop
+# poplist=["hello","baby","what","are","you","doing"]
+# poplist.pop(1)
+# print(poplist)
+# #sorting of list
+# l=[88,33,44,55,66]
+# l.sort()
+# print(l)
+# #sorting from reverse
+# l=[88,33,44,55,66]
+# s=sorted(l, reverse=True)
+# print(s)
+# #for loop for list
 l=[88,33,44,55,66]
-#sorting of list
-l.sort()
-#sorting from reverse
-s=sorted(l, reverse=True)
-print("print after reverce sort",s)
-print("print after sort",l)
-#for loop for list
 for i in l:
-    print("print same line with end",i,end=" ")
+     print(i,end=" \n")#print same line with end
 #while loop for list
 w=[1,2,3,4,5]
 ind=0
 while ind <len(w):
-    print(w[ind])
-    ind=ind +1
-
-a=[1,2,3,4,5]#list for square loop
-suare=[num**2 for num in a]#condition of square loop
+     print(w[ind])
+     ind=ind +1
+# list for square loop
+a=[1,2,3,4,5]
+suare=[num**2 for num in a]
 print("print after suare",suare)
+# list for loop with index no
 
-fruite=["apple","banana","mango"]#list for loop with index no
-for index, i in enumerate(fruite):#condition
-    print("print with index no",index,i)#print
+fruite=["apple","banana","mango"]
+for index, i in enumerate(fruite):
+     print("print with index no",index,i)
