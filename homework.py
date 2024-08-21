@@ -1,4 +1,4 @@
-a="hello,baby,hhhhhh,rr,e,hello"
+a=input("enter any str:")
 a=a.split(",")
 firstlen=len(a[0])
 count=0
