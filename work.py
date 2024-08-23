@@ -16,3 +16,16 @@ for i in a:
 print("phle wale str se bade wale str:",bb)        
 print("phle str se chote wale str ka count:",count)
 print("phle wale str ke equal len ka count:",s)
+
+
+
+a=input("ENTER ANY STR:")
+a=a.split(" ")
+count=0
+for i in a:
+    b=i[0]
+    c=i[-1]
+    if b==c:
+        count=count + 1
+print(count)
+

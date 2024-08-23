@@ -13,7 +13,7 @@ elif [[ $status_output -ge 1 ]]
 	then
 	git add . > /dev/null 2>&1
 	git commit -m "change in repo" > /dev/null 2>&1
-	git push --force-with-lease origin main > /dev/null 2>&1
+	git push --force origin main > /dev/null 2>&1
 	echo "git push succesfull"
 fi
 
