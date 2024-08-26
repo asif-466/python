@@ -5,14 +5,14 @@ dic={"name": "asif",
      "topic" : ("dict","set"),
      "is_adult" : True}
 
-# print(dic["name"])
-# print(dic["surname"])
-# print(dic["sub"])
-print(dic["sub"]["phy"])
-print(len(list(dic.keys())))
-print(len(dic))
-pair=(list(dic.items()))
-print(pair[0])
-dic.update({"city":"delhi"})
-print(dic)
+print(dic["name"])
+# # print(dic["surname"])
+# # print(dic["sub"])
+# print(dic["sub"]["phy"])
+# print(len(list(dic.keys())))
+# print(len(dic))
+# pair=(list(dic.items()))
+# print(pair[0])
+# dic.update({"city":"delhi"})
+# print(dic)
 
