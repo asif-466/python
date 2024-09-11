@@ -1,4 +1,5 @@
 dic={"name": "asif",
+     "surname": "sohan",
      "age" : 23,
      "marks" : 98.0,
      "sub" : {"phy":45,"che":66,"math":77,"sci":88},
@@ -6,7 +7,7 @@ dic={"name": "asif",
      "is_adult" : True}
 
 print(dic["name"])
-# # print(dic["surname"])
+print(dic["surname"])
 # # print(dic["sub"])
 # print(dic["sub"]["phy"])
 # print(len(list(dic.keys())))
